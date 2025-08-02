@@ -1,0 +1,38 @@
+.grid-layer{
+    font-family: Helvetica Neue;
+    background-color: #F8F8F8;
+    padding: 36px 64px;
+}
+
+.header{
+    text-align: center;
+    line-height: 1.5;
+}
+
+.header p{
+    margin-bottom: 24px;
+    font-size: 18px;
+}
+
+.grids{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 64px;
+}
+
+.grid{
+    padding: 32px 44px;
+    background-color: white;
+    border-radius: 10px;
+    line-height: 1.8;
+}
+
+.grid:hover{
+    transform: scale(1.08);
+    transition: 0.3s ease-in-out;
+}
+
+.grid p{
+    font-size: 18px;
+}

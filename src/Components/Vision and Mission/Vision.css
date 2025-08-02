@@ -1,0 +1,17 @@
+.vision{
+    margin: 52px 32px;
+    display: inline-flex;
+    text-align: center;
+    align-items: center;
+}
+
+.left p{
+    margin-left: 32px;
+    line-height: 1.8;
+    font-size: 20px;
+    font-family: Helvetica Neue;
+}
+
+.rights{
+    margin: 0px 80px;
+}
