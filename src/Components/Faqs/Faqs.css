@@ -1,0 +1,47 @@
+.head{
+    margin-top: 20px;
+    text-align: center;
+    font-family: Helvetica Neue;
+}
+
+.bar{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 15px 0;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    background-color: #155AA0;
+    color: white;
+}
+
+.bar::placeholder{
+    color: white;
+}
+
+.faaq{
+    margin-bottom: 16px;;
+    border: 1px solid white;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #155AA0;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Helvetica Neue;
+    color: white;
+}
+
+.toggle{
+    padding: 15px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #155AA0;
+}
+
+.empty{
+    text-align: center;
+    color: #777;
+    font-family: Helvetica Neue;
+}

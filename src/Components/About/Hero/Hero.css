@@ -1,0 +1,27 @@
+.hero-ground{
+    min-width: 100%;
+    min-height: 80vh;
+    background: url(../../../assets/award.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-texts{
+    padding-top: 200px;
+    padding-left: 140px;
+    padding-right: 140px;
+    color: white;
+    font-family: Helvetica;
+    text-align: center;
+
+}
+
+.hero-texts h1{
+    font-size: 40px;
+    line-height: 1.4;
+}
+
+.hero-texts p{
+    font-size: 18px;
+    line-height: 1.9;
+}

@@ -1,0 +1,30 @@
+.story-cont{
+    padding: 20px 0px;
+    font-family: Helvetica Neue;
+}
+
+.story{
+    background-color: rgb(253, 253, 253);
+    padding: 20px 12px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.story img{
+    width: 1200px;
+    height: 400px;
+}
+
+.story-cont h1{
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 20px;
+    color: #0D164A;
+}
+
+.story-cont p{
+    padding: 20px 60px;
+    font-size: 16px;
+    line-height: 2;
+}

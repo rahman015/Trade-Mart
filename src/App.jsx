@@ -1,19 +1,26 @@
 import React from 'react'
+import { Route, Routes } from 'react-router-dom'
+import Home from './Components/Home'
+import About from './Components/About'
 import Navbar from './Components/Navbar/Navbar'
-import Background from './Components/Background/Background'
-import Vision from './Components/Vision and Mission/Vision'
-import Grid from './Components/Grid/Grid'
-import Faqs from './Components/Faqs/Faqs'
+import Contact from './Components/Contact'
+import Signup from './Components/Create Account/Signup'
+import Product from './Components/Product/Product'
 
 const App = () => {
   return (
     <div>
       <Navbar/>
-      <Background/>
-      <Vision/>
-      <Grid/>
-      <Faqs/>
+        <Routes>
+          <Route path="/" exact element={<Home />} /> 
+          <Route path="/home" exact element={<Home />} /> 
+          <Route path="/about" exact element={<About />} /> 
+          <Route path="/contact" element={<Contact />} /> 
+          <Route path="/login" element={<Signup/>} /> 
+          <Route path="/products" element={<Product/>} /> 
+        </Routes>
     </div>
+
   )
 }
 

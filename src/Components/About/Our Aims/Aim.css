@@ -1,0 +1,39 @@
+.aim-container{
+    color: #0D164A;
+    margin-top: 72px;
+    font-family: Helvetica Neue;
+    text-align: center;
+}
+
+.aim{
+    margin: 52px 32px;
+    display: inline-flex;
+    align-items: center;
+    padding: 4px 52px;
+    font-family: Helvetica Neue;
+    text-align: center;
+    line-height: 1.8;
+}
+
+.aim p{
+    font-size: 20px;
+}
+
+.aim-right{
+    padding-left: 68px;
+}
+
+.aim-right p{
+    padding-left: 40px;
+    border-left: 1px solid gray;
+}
+
+.aim-right img{
+    width: 280px;
+    height: 140px;
+}
+
+.aim-left img{
+    width: 280px;
+    height: 168px;
+}

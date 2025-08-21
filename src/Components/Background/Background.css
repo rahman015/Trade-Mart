@@ -1,9 +1,9 @@
 .back-ground{
     min-width: 100%;
     min-height: 100vh;
-    background: url(../../assets/background.png);
     background-size: cover;
     background-position: center;
+    transition: background-image 1s ease-in-out;
 }
 
 .back-text{

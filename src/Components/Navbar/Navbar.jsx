@@ -1,4 +1,5 @@
 import React from "react";
+import { Link, NavLink } from "react-router-dom";
 import logo3 from "../../assets/Logo3.png";
 import logo4 from "../../assets/Logo4.png";
 import 'bootstrap-icons/font/bootstrap-icons.css';
@@ -8,29 +9,29 @@ import "./Navbar.css";
 const Navbar = () => {
   return (
     <nav className="nav-bar">
-      <div className="logo"><a href=""><img src={logo3} /></a></div>
-      <div className="logo4"><a href=""><img src={logo4} /></a></div>
+      <div className="logo"><NavLink to="/home"><img src={logo3} /></NavLink></div>
+      <div className="logo4"><NavLink to="/home"><img src={logo4} /></NavLink></div>
       <ul className="Nav-links">
         <div className="center">
           <li>
-            <a href="">About</a>
+            <NavLink to="/about">About</NavLink>
           </li>
           <li>
-            <a href="">Shops</a>
+            <NavLink to="">Shops</NavLink>
           </li>
           <li>
-            <a href="">FAQs</a>
+            <NavLink to="">FAQs</NavLink>
           </li>
           <li>
-            <a href="">Contact</a>
+            <NavLink to="/contact">Contact</NavLink>
           </li>
         </div>
         <div className="right">
           <li>
-            <a href=""><i class="bi bi-cart-fill"></i>Cart</a>
+            <NavLink to=""><i className="bi bi-cart-fill"></i>Cart</NavLink>
           </li>
           <li>
-            <a href="">Sign <i class="bi bi-box-arrow-in-right"></i></a>
+            <NavLink to="/login">Sign <i className="bi bi-box-arrow-in-right"></i></NavLink>
           </li>
         </div>
       </ul>

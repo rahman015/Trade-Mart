@@ -1,0 +1,78 @@
+.contact-hero{
+    min-width: 100%;
+    min-height: 100vh;
+    background: url(../assets/contact-hero.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.gridss{
+    display:flex;
+    font-family: Helvetica Neue;
+    color: white;
+    padding-left: 120px;
+    padding-right: 100px;
+}
+
+.grid-left{
+    margin-top: 170px;
+    padding-right: 120px;
+    text-align: left;
+}
+
+.c-img img{
+    padding-right: 16px;
+}
+
+.grid-left p{
+    font-size: 16px;
+    line-height: 2;
+    padding-bottom: 14px;
+}
+
+.c-img{
+    padding-bottom: 12px;
+}
+
+.grid-left h2{
+    padding-bottom: 16px;
+}
+
+.grid-right{
+    display: flex;
+    flex-direction: column;
+    margin-top: 170px;
+}
+
+.grid-right input{
+    background-color: #040233;
+    margin: 8px 0px;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    width: 520px;
+    height: 52px;
+}
+
+.grid-right textarea{
+    background-color: #040233;
+    margin: 8px 0px;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+}
+
+.grid-right button{
+    font-size: 16px;
+    margin-top: 16px;
+    padding: 14px 12px;
+    width: 164px;
+    background: none;
+    border: 2px solid white;
+    color: white;
+    cursor: pointer;
+}
+
+.grid-right button:hover{
+    background-color: #040233;
+}
